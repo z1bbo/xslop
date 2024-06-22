@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "X Timeline Slop Cleaner",
+  "version": "1.0",
+  "description": "Press f to mark the tweet at the top as slop (not interested). This cleans up your timeline",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  }
+}
