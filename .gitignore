@@ -1,3 +1,6 @@
 # addon packages
 *.zip
 *.xpi
+
+# macOs
+.DS_Store
