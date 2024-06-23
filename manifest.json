@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "X Timeline Slop Cleaner",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Clean up your timeline! Press f to mark the tweet at the top as slop (not interested).",
   "permissions": [
     "activeTab"
