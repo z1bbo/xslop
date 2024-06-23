@@ -27,6 +27,7 @@ async function markUninterested() {
 document.addEventListener('keydown', function(event) {
   if (window.location.pathname === "/home" && event.key === 'f'
     && !['INPUT', 'TEXTAREA', 'SELECT'].includes(event.target.tagName)
+    && event.target.contentEditable != 'true'
   ) {
     event.preventDefault();
     markUninterested();
