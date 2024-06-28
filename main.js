@@ -1,8 +1,8 @@
 function getFocussedTweet() {
-  const tweets = document.querySelectorAll('article[role="article"]');
+  const tweets = document.querySelectorAll('article[role="article"][data-testid="tweet"]');
   for (let tweet of tweets) {
     const rect = tweet.getBoundingClientRect();
-    if (rect.top > 10) {
+    if (rect.top > 15) {
       return tweet;
     }
   }
