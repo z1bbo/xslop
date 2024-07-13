@@ -1,4 +1,7 @@
+[![Mozilla badge](https://img.shields.io/amo/rating/x-timeline-slop-cleaner?label=Firefox)](https://addons.mozilla.org/addon/x-timeline-slop-cleaner/)
 # X Timeline Slop Cleaner
+
+<a href="https://addons.mozilla.org/addon/x-timeline-slop-cleaner/"><img src="https://github.com/user-attachments/assets/90f96e34-5caf-47cf-826b-e13314397876" alt="Get X Timeline Slop Cleaner for Firefox"></a>
 
 Press **f** to mark the tweet showing at the top of your timeline as slop ("not interested"), which will hide it and tell the algorithm that you want to see less similar content.
 
