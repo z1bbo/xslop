@@ -7,12 +7,19 @@ Press **f** to mark the tweet showing at the top of your timeline as slop ("not 
 
 Only works on the "For you" page, i.e. x.com/home
 
-## How to release a new version
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/00ca8e43-0411-431a-978a-fecb35f06c9f" width="35%" style="margin-right: 20px;">
+  <span style="font-size: 24px;">&#10142;</span>
+  <img src="https://github.com/user-attachments/assets/ad73ae19-bc4f-4731-b1a5-3c9a18c37f2e" width="35%" style="margin-left: 20px;">
+</div>
+
+## Developing
+### How to release a new version
 1. update the version in `manifest.json`
 2. zip the files: `zip -r xslop.zip icons main.js manifest.json`
 3. go to about:debugging -> this Firefox, load the zip to test it
 4. upload the zip at (top left) https://addons.mozilla.org/zh-TW/developers/addon/x-timeline-slop-cleaner/edit
 
-## Commands used to create the addon icons
+### Commands used to create the addon icons
 * small: `magick -size 48x48 canvas:white -gravity center -fill red -stroke black -strokewidth 2 -font Arial -pointsize 58 -draw text 0,0 f icon-48.png`
 * big: `magick -size 96x96 canvas:white -gravity center -fill red -stroke black -strokewidth 2 -font Arial -pointsize 116 -draw text 0,0 f icon-96.png`
